@@ -62,6 +62,8 @@ private doce doce;
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem5 = new javax.swing.JMenuItem();
         jMenuItem6 = new javax.swing.JMenuItem();
+        jMenuItem8 = new javax.swing.JMenuItem();
+        jMenuItem9 = new javax.swing.JMenuItem();
         menuProveedores = new javax.swing.JMenu();
         subMenuAddProvedor = new javax.swing.JMenuItem();
         jMenuItem7 = new javax.swing.JMenuItem();
@@ -135,6 +137,12 @@ private doce doce;
 
         jMenuItem6.setText("Clientes");
         menuProductos.add(jMenuItem6);
+
+        jMenuItem8.setText("Productos");
+        menuProductos.add(jMenuItem8);
+
+        jMenuItem9.setText("Bodega");
+        menuProductos.add(jMenuItem9);
 
         jMenuBar1.add(menuProductos);
 
@@ -259,6 +267,8 @@ private doce doce;
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem6;
     private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem8;
+    private javax.swing.JMenuItem jMenuItem9;
     private javax.swing.JMenu menuProductos;
     private javax.swing.JMenu menuProveedores;
     private javax.swing.JMenu salir;
