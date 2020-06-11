@@ -12,6 +12,19 @@ public class MDI extends javax.swing.JFrame {
 private uno uno;
 private dos dos;
 private tres tres;
+private cuatro cuatro;
+private cinco cinco;
+private seis seis;
+private siete siete;
+private ocho ocho;
+private nueve nueve;
+private diez diez;
+private once once;
+private doce doce;
+
+
+
+
     Usuarios mod;
 
     public MDI() {
@@ -79,7 +92,7 @@ private tres tres;
         menuProductos.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
 
         subMenuAddProducto.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        subMenuAddProducto.setText("Agregar");
+        subMenuAddProducto.setText("existencia");
         subMenuAddProducto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 subMenuAddProductoActionPerformed(evt);
@@ -88,7 +101,7 @@ private tres tres;
         menuProductos.add(subMenuAddProducto);
 
         subMenuEditProducto.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        subMenuEditProducto.setText("Modificar");
+        subMenuEditProducto.setText("Marcas");
         subMenuEditProducto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 subMenuEditProductoActionPerformed(evt);
@@ -96,7 +109,7 @@ private tres tres;
         });
         menuProductos.add(subMenuEditProducto);
 
-        jMenuItem2.setText("jMenuItem2");
+        jMenuItem2.setText("lineas");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem2ActionPerformed(evt);
@@ -104,13 +117,23 @@ private tres tres;
         });
         menuProductos.add(jMenuItem2);
 
-        jMenuItem4.setText("jMenuItem4");
+        jMenuItem4.setText("vendedores");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
         menuProductos.add(jMenuItem4);
 
-        jMenuItem5.setText("jMenuItem5");
+        jMenuItem5.setText("Proveedores");
+        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem5ActionPerformed(evt);
+            }
+        });
         menuProductos.add(jMenuItem5);
 
-        jMenuItem6.setText("jMenuItem6");
+        jMenuItem6.setText("Clientes");
         menuProductos.add(jMenuItem6);
 
         jMenuBar1.add(menuProductos);
@@ -177,6 +200,18 @@ private tres tres;
         tres =  new tres();   
      jDesktopPane1.add(tres) ;
     }//GEN-LAST:event_jMenuItem2ActionPerformed
+
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+        cuatro =  new cuatro();   
+     jDesktopPane1.add(cuatro) ;
+        
+        
+    }//GEN-LAST:event_jMenuItem4ActionPerformed
+
+    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
+        cinco =  new cinco();   
+     jDesktopPane1.add(cinco) ;
+    }//GEN-LAST:event_jMenuItem5ActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
